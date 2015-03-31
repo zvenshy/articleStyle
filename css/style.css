@@ -2,7 +2,11 @@
 article.use {
   margin: 0 auto;
   color: #555;
-  font: 14px/1 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif; }
+  font: 14px/1 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif;
+  /*     ul, ol {
+        padding: 0;
+        margin: 0;
+    } */ }
   article.use h1, article.use h2, article.use h3, article.use h4 {
     color: #111111;
     font-weight: 400; }
@@ -32,9 +36,6 @@ article.use {
     color: #ff6600; }
   article.use a:visited {
     color: purple; }
-  article.use ul, article.use ol {
-    padding: 0;
-    margin: 0; }
   article.use li {
     line-height: 24px; }
   article.use li ul, article.use li ul {
