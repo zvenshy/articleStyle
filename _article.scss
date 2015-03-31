@@ -44,10 +44,10 @@ article.use {
     a:visited {
         color: purple;
     }
-/*     ul, ol {
-        padding: 0;
+     ul, ol {
+        padding: 0 18px;
         margin: 0;
-    } */
+    } 
     li {
         line-height: 24px;
     }
@@ -75,8 +75,9 @@ article.use {
         width: 390px;
     }
     blockquote {
-        border-left:.5em solid #eee;
-        padding: 0 2em;
+        border-left: 10px solid #D6DBDF;
+        background: #eee;
+        padding: 0 15px;
         margin-left:0;
         max-width: 476px;
     }
@@ -89,7 +90,9 @@ article.use {
         content: '\2014 \00A0';
     }
 
-    blockquote p {  
+    blockquote p {
+        padding: 12px 0;
+        margin: 0;
         color: #666;
         max-width: 460px;
     }

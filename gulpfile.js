@@ -20,7 +20,7 @@ gulp.task('compress', function () {
 });
 
 gulp.task('default', ['sass', 'compress']);
-var watcher = gulp.watch('./*.scss', ['sass']);
+var watcher = gulp.watch('./*.scss', ['sass', 'compress']);
 watcher.on('change', function(event) {
   console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 });
