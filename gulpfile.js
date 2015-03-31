@@ -16,7 +16,7 @@ gulp.task('compress', function () {
   gulp.src('./css/*.css')
     .pipe(minify())
     .pipe(rename({suffix: '.min'}))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist'));
 });
 
 gulp.task('default', ['sass', 'compress']);
@@ -24,3 +24,4 @@ var watcher = gulp.watch('./*.scss', ['sass', 'compress']);
 watcher.on('change', function(event) {
   console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
 });
+
