@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* THX 4 http://kevinburke.bitbucket.org/markdowncss/markdown.css */
+
 article.use {
     margin: 0 auto;
     color: #555;
@@ -18,8 +20,6 @@ article.use {
     }
     h2 {
         font-size: 36px;
-        /* The bottom margin is small. It's designed to be used with gray meta text
-         * below a post title. */
         margin: 24px 0 6px;
     }
     h3 {
