@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body > header {
+    padding: 36px 20px;
+    font: 26px/1.2 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif;
+    color: #fff;
+    background: rgb(45, 52, 60);
+
+    span {
+        font: 12px/1.2 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif;
+    }
+
+    &.sec {
+        background: rgb(80, 170, 142);
+    }
+
+    &.thi {
+        background: rgb(1, 115, 172);
+    }
+
+    &.for {
+        background: rgb(190, 70, 70);
+    }
+}
+
