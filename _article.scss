@@ -83,16 +83,23 @@ article.use {
         font-size: 13px;
     }
     aside {
-        display: block;
         float: right;
         width: 390px;
     }
     blockquote {
-        border-left: 10px solid #D6DBDF;
+        border-left: 10px solid #5252e0;
         background: #eee;
         padding: 0 15px;
         margin-left:0;
         max-width: 476px;
+        &.warning {
+            border-left-color: #52e052;
+            background-color: #efe;
+        }
+        &.error {
+            border-left-color: #e05252;
+            background-color: #cee;
+        }
     }
     blockquote  cite {
         font-size:14px;
