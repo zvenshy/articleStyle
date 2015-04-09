@@ -7,19 +7,19 @@ body > header {
     background: rgb(45, 52, 60);
 
     span {
-        font: 12px/1.2 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif;
+        font: 12px/1 Georgia, Palatino, "Microsoft Yahei", "微软雅黑", sans-serif;
     }
 
     &.sec {
-        background: rgb(80, 170, 142);
+        background: #50aa8e;
     }
 
     &.thi {
-        background: rgb(1, 115, 172);
+        background: #0173ac;
     }
 
     &.for {
-        background: rgb(190, 70, 70);
+        background: #be4646;
     }
 }
 
